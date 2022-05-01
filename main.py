@@ -552,9 +552,9 @@ if __name__ == "__main__":
 
         purchased = 0
         for item in outStringsM:
-            print(
-                "Requesting...", datetime.now().isoformat(timespec="seconds"), end=" - "
-            )
+            #print(
+            #    "Requesting...", datetime.now().isoformat(timespec="seconds"), end=" - "
+            #)
             # checkUrl = f"https://api.namecheap.com/xml.response?ApiUser={username}&ApiKey={apikey}&UserName={username}&Command=namecheap.domains.check&ClientIp={ip}&DomainList={item}"
             checkUrl = f"https://api.namecheap.com/xml.response"
             checkData = {
